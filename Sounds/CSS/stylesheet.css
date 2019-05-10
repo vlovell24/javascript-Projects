@@ -1,0 +1,44 @@
+.horn {
+    width: 150px;
+    height: 50px;
+    color: black;
+    text-align: center;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 15px;
+    padding-top: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: lightslategrey;
+    font-family: "Wendy One";
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Wendy One";
+}
+body {
+    background-color: lightgray;
+}
+
+.circles {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: lightslategrey;
+    display: inline-block;
+
+}
+
+
+.active {
+    border: 5px solid ivory;
+    color: ivory;
+}
+
+#container {
+    text-align: center;
+    margin-top: 250px;
+}

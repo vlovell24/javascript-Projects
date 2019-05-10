@@ -1,0 +1,51 @@
+
+.message {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 150px;
+    font-family: "Press Start 2P";
+    color: greenyellow;
+    line-height: 1.6;
+    text-shadow: 2px 2px 8px black;
+}
+
+#buttonArea {
+    text-align: center;
+}
+
+button {
+    font-size: 25px;
+    font-family: "Press Start 2P";
+    color: darkgreen;
+    background-color: greenyellow;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 8px black;
+}
+
+body {
+    background-color: darkgreen;
+}
+
+#coinLeft {
+    max-width: 100px;
+}
+
+#coinDiv {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#heartLeft {
+    max-width: 50px;
+}
+
+#heartRight {
+    max-width: 50px;
+    margin-left: 25px;
+    padding-top: 5px;
+}

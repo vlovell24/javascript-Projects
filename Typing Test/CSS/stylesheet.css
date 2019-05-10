@@ -1,0 +1,53 @@
+
+.mainContainer {
+    text-align: center;
+    margin-top: 100px;
+}
+.message {
+    font-size: 45px;
+    font-family: "Heebo";
+    height: 70px;
+    color: dimgrey;
+    font-weight: lighter;
+}
+
+#textBox {
+    height: 250px;
+    width: 900px;
+    font-size: 35px;
+    font-family: "Heebo";
+    margin-top: 50px;
+    background-color: whitesmoke;
+    color: dimgrey;
+    outline: none;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    font-family: "Heebo";
+    font-size: 25px;
+    color: whitesmoke;
+    background-color: orange;
+    border: none;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.dots {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: teal;
+    display: inline-block;
+    margin: 1px;
+}
+
+

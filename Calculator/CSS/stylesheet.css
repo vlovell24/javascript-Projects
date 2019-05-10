@@ -1,0 +1,220 @@
+
+body {
+    margin-top: 150px;
+}
+h1  {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Dosis";
+}
+#top-portion {
+    height: 100px;
+    width: 700px;
+    background-color: #1B1B1B;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#buttonsBackground {
+    height: 30px;
+    width: 75px;
+    background-color: grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 2px;
+    background-image: linear-gradient(dimgrey, dimgrey, dimgrey, darkgrey);
+}
+
+#x {
+    font-family: "Varela Round";
+    font-weight: bold;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border: none;
+    margin-left: 5px;
+    margin-top: 3px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, darkred, indianred, darkred);
+}
+
+#v {
+    font-family: "Varela Round";
+    font-weight: bold;
+    height: 25px;
+    width: 25px;
+    background-color: antiquewhite;
+    border: none;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+#textAreaA {
+    color: #eae8dd;
+    font-size: 25px;
+    display: inline-block;
+    font-family: "Crete Round";
+    margin-left: 15px;
+}
+
+#messageArea {
+
+    font-family: "Heebo";
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+    float: right;
+    letter-spacing: 3px;
+}
+
+#main-container {
+    width: 700px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #eae8dd;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#stupidRedLine {
+    width: 700px;
+    height: 20px;
+    background-color: #eae8dd;
+}
+
+#top-area {
+    height: 150px;
+    width: 650px;
+    background-color: white;
+    border: 5px solid #dacbc8;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#buttonLineOne {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.littleButtonsPurple {
+     height: 50px;
+     width: 105px;
+     font-family: "Heebo";
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #625682;
+    background-image: linear-gradient(#D3D3D3, #7c6ea7, #7c6ea7);
+    outline: none;
+ }
+
+.littleButtonsOrange {
+    height: 50px;
+    width: 105px;
+    font-family: "Heebo";
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    background-image: linear-gradient(#D3D3D3, #ffad60, #ffad60);
+    outline: none;
+}
+
+.littleButtonsBrown {
+    height: 50px;
+    width: 105px;
+    font-family: "Heebo";
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #8a6955;
+    background-image: linear-gradient(#D3D3D3, #c7a384, #c7a384);
+    outline: none;
+}
+
+.littleButtonsGreen {
+    height: 50px;
+    width: 210px;
+    font-family: "Heebo";
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+    background-image: linear-gradient(#D3D3D3, seagreen, seagreen);
+    outline: none;
+}
+
+#buttonLineTwo {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#buttonLineThree {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#buttonLineFour {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-image: none;
+    color: antiquewhite;
+    background-color: grey;
+    border: none;
+}
+
+.numberClicked {
+    height: 50px;
+    width: 105px;
+    font-family: "Heebo";
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    background-image: none;
+    outline: none;
+}
+
+.equalsSign {
+    height: 50px;
+    width: 210px;
+    font-family: "Heebo";
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+    background-image: none;
+    outline: none;
+}
+
+.squareRootClicked {
+    height: 50px;
+    width: 105px;
+    font-family: "Heebo";
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #8a6955;
+    background-image: none;
+    outline: none;
+}
+
+.percentButtonClicked {
+    height: 50px;
+    width: 105px;
+    font-family: "Heebo";
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #625682;
+    background-image: none;
+    outline: none;
+}
+
+

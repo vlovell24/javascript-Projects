@@ -1,0 +1,66 @@
+
+
+.score {
+    text-align: center;
+    height: 150px;
+    font-size: 75px;
+    font-family: "Luckiest Guy";
+    text-shadow: 1px 1px 2px orange, 0 0 25px orange, 0 0 5px darkorange;
+    color: black;
+}
+
+.message {
+    text-align: center;
+    height: 150px;
+    font-size: 75px;
+    font-family: "Luckiest Guy";
+    text-shadow: 1px 1px 2px orange, 0 0 25px orange, 0 0 5px darkorange;
+    color: black;
+
+
+}
+
+#buttonGroup {
+    text-align: center;
+    margin-top: 135px;
+
+}
+
+.button {
+
+    width: 155px;
+    height: 50px;
+    font-family: "Luckiest Guy";
+    margin-left: 10px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: blue;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px 5px black;
+
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+body {
+    height: 900px;
+    background-color: blue;
+    outline: 5px dashed orange;
+}
+
+img {
+    max-width: 200px;
+}

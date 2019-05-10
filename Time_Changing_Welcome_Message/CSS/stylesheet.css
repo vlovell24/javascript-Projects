@@ -1,0 +1,35 @@
+
+
+.output {
+
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 45px;
+}
+
+#containerStyling {
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    margin: 125px auto 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    background-color: cornflowerblue;
+
+}
+
+button {
+    margin-top: 25px;
+    font-size: 25px;
+    width: 200px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: deeppink;
+    color: lightpink;
+}
+
+body {
+    background-color: bisque;
+}
+

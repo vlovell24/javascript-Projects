@@ -1,0 +1,114 @@
+
+
+
+body {
+    background-color: darkseagreen;
+    height: 100%;
+}
+
+.output {
+    font-size: 50px;
+    color: bisque;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Permanent Marker';
+    text-shadow: 1px 1px 2px black, 0 0 25px darkolivegreen, 0 0 5px darkolivegreen;
+
+}
+.buttonstuff {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+#button-A {
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    color: bisque;
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'Dokdo';
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: none;
+}
+
+#button-B {
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    color: bisque;
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'Dokdo';
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: none;
+}
+
+#button-C {
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    color: bisque;
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'Dokdo';
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: none;
+}
+
+#button-D {
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    color: bisque;
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'Dokdo';
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: none;
+}
+
+#button-reset {
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    color: bisque;
+    font-size: 25px;
+    padding: 15px 50px;
+    font-family: 'Dokdo';
+    margin-top: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: none;
+
+}
+
+
+input {
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: bisque;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Dokdo';
+    margin-bottom: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+#Money_Left {
+    max-width: 180px;
+    float: right;
+}
+
+#Money_Right {
+    max-width: 180px;
+    float: left;
+}
+
+#LeftFlex {
+    width: 30%;
+}
+
+#RightFlex {
+    width: 30%;
+}
+
+#CenterFlex {
+    width:40%;
+}

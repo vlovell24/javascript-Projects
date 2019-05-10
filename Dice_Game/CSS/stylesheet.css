@@ -1,0 +1,104 @@
+
+
+#player1, #player2 {
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    border: 10px solid indianred;
+    padding: 5px;
+    margin: 25px;
+    text-align: center;
+    font-size: 7em;
+    color: orange;
+    text-shadow: 2px 2px 8px darkblue;
+    border-radius: 25px;
+    box-shadow: 5px 10px 5px black;
+
+}
+
+#output {
+    text-align: center;
+    font-size: 6em;
+    font-family: "Freckle Face";
+    color: orange;
+    margin-top: 50px;
+    background-color: mediumpurple;
+    text-shadow: 3px 3px cornflowerblue;
+    box-shadow: 5px 10px 5px black;
+}
+
+button {
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Freckle Face";
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 3em;
+    color: mediumpurple;
+    text-shadow: 2px 2px 8px darkblue;
+    padding: 20px;
+    width: 450px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: 5px 10px 5px black;
+}
+
+button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.gameArea {
+    width: 100%;
+    margin: 100px auto;
+}
+
+#playerArea {
+    text-align: center;
+    font-family: "Freckle Face";
+    background-color: mediumpurple;
+
+}
+
+#score {
+    text-align: center;
+    font-family: "Freckle Face";
+    font-size: 3em;
+    background-color: mediumpurple;
+    color: cornflowerblue;
+    text-shadow: 2px 2px 8px darkblue;
+}
+
+#buttonDivider {
+    background-color: mediumpurple;
+    height: 200px;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0500/8537/r2016_dicerepeat3_shop_preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

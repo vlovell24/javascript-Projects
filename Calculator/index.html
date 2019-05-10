@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Dosis:800|Heebo|Varela+Round" rel="stylesheet">
+</head>
+<body>
+<h1>JAVASCRIPT CALCULATOR USING ONCLICK IN HTML</h1>
+<div id="top-portion">
+    <div id="buttonsBackground">
+    <button id="x" onclick="self.close()">X</button>
+    <button id="v" onclick="alert('I dont do anything yet; im just for looks')">V</button>
+    </div>
+    <div id="textAreaA">Calculator</div>
+</div>
+
+<div id="main-container">
+    <div id="stupidRedLine"></div>
+    <div id="top-area">
+        <div id="messageArea">0</div>
+    </div>
+    <div id="bottom-area">
+        <div id="buttonLineOne">
+            <button class="littleButtonsPurple" id="seven" onclick="numberKeyPressed(7)">7</button>
+            <button class="littleButtonsPurple" id="eight" onclick="numberKeyPressed(8)">8</button>
+            <button class="littleButtonsPurple" id="nine" onclick="numberKeyPressed(9)">9</button>
+            <button class="littleButtonsOrange" id="divide" onclick="addClassAttribute('divide')">/</button>
+            <button class="littleButtonsBrown" id="undo">Undo</button>
+            <button class="littleButtonsBrown" id="clear" onclick="clearDisplay()">Clear</button>
+        </div>
+        <div id="buttonLineTwo">
+            <button class="littleButtonsPurple" id="four" onclick="numberKeyPressed(4)">4</button>
+            <button class="littleButtonsPurple" id="five" onclick="numberKeyPressed(5)">5</button>
+            <button class="littleButtonsPurple" id="six" onclick="numberKeyPressed(6)">6</button>
+            <button class="littleButtonsOrange" id="times" onclick="addClassAttribute('times')">x</button>
+            <button class="littleButtonsBrown" id="leftParen" onclick="powerOfThreeCalc()">x³</button>
+            <button class="littleButtonsBrown" id="rightParen" onclick="piCalculation()">π</button>
+        </div>
+        <div id="buttonLineThree">
+            <button class="littleButtonsPurple" id="one" onclick="numberKeyPressed(1)">1</button>
+            <button class="littleButtonsPurple" id="two" onclick="numberKeyPressed(2)">2</button>
+            <button class="littleButtonsPurple" id="three" onclick="numberKeyPressed(3)">3</button>
+            <button class="littleButtonsOrange" id="subtract" onclick="addClassAttribute('subtract')">-</button>
+            <button class="littleButtonsBrown" id="powerOfTwo" onclick="powerOfTwoCalc()">x²</button>
+            <button class="littleButtonsBrown" id="squareRoot" onclick="squareRootCalculation()">√</button>
+        </div>
+        <div id="buttonLineFour">
+            <button class="littleButtonsPurple" id="zero" onclick="numberKeyPressed(0)">0</button>
+            <button class="littleButtonsPurple" id="period" onclick="numberKeyPressed('.')">.</button>
+            <button class="littleButtonsPurple" id="percent" onclick="percentCalculation()">%</button>
+            <button class="littleButtonsOrange" id="plus" onclick="addClassAttribute('plus')">+</button>
+            <button class="littleButtonsGreen" id="equals" onclick="finalCalculation()">=</button>
+        </div>
+    </div>
+</div>
+
+<script src="JAVASCRIPT/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+body {
+    background-color: lightgray;
+}
+
+.replay {
+
+}
+.message {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.output {
+
+}
+input[type="text"] {
+    height: 40px;
+    font-size: 25px;
+    background-color: bisque;
+    margin-left: 32em;
+    margin-top: 3vw;
+    text-align: center;
+}
+button {
+    padding: 15px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 50em;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
