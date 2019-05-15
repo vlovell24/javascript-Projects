@@ -1,0 +1,5 @@
+A typing test. 
+
+An array of phrases is stored in javascript, and generated when start is clicked. The user then types the phrase, and hit's enter.
+Once enter is hit, the amount of correct words spelled is displayed, as well as the words typed per minute. Hitting the start button
+resets the test. 
