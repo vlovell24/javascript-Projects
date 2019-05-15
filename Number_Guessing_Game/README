@@ -1,0 +1,2 @@
+A number guessing game. The computer chooses a random number from 0 to 10. The player then has to guess the number correctly. 
+The computer will give a hint, if the number is lower or higher than the guessed number. Tries are added to a counter.
