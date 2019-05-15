@@ -1,0 +1,2 @@
+A simple coin toss game with two buttons (HEADS and TAILS). This is a vs. the computer game; so the player chooses heads/tails and then
+the computer chooses head/tails. The choices are compared, and a winner is declared.
