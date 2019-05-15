@@ -1,0 +1,2 @@
+A rock/paper/scissors game vs. the computer. Player chooses rock, paper or scissors, and then the computer chooses. The values are 
+compared, and a winner is declared. A score is updated based on who won each round.
