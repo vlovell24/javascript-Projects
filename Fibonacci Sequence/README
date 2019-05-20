@@ -1,0 +1,2 @@
+The Fibonacci Sequence in a for loop, while loop, and do/while loop. I set the sequence to end at 610, but you can modify it to 
+whatever length you want too. The javascript also appends the sequence onto the html.
