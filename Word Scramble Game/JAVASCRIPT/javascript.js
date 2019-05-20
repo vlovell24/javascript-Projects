@@ -53,7 +53,7 @@ function createWord() {
 //tomfoolery and witchery has to be employed. Therefore, the array length -1 is used to grab all of the letters EXCEPT
 //for the first letter (with a zero index). Then, i has one added back onto it, to grab the first letter to scramble it
 // all together. Some handoffs are then done (i to j and then j to temp), and finally, the array is returned to the anon
-//function in the beginning. 
+//function in the beginning.
 function randomArray (arr) {
     for (let i = arr.length - 1; i > 0; i--) {
         let temp = arr[i];
