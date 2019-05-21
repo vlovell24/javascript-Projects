@@ -1,0 +1,3 @@
+A countdown timer, that stores the users chosen date into local storage (so that the timer continues, even if the page is 
+refreshed). Timer allow the user to choose a date (and they can change that date at will). A countdown timer will start
+with the days, hours, minutes, and seconds until that date. 
