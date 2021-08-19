@@ -1,0 +1,43 @@
+let converted = []; //stores the letters from the conversion function
+let romanNumerals =
+    {
+        M: 1000,
+        CM: 900,
+        D: 500,
+        CD: 400,
+        C: 100,
+        XC: 90,
+        L: 50,
+        XL: 40,
+        X: 10,
+        IX: 9,
+        V: 5,
+        IV: 4,
+        I: 1
+    };
+
+ convertToRoman = (num) => {
+    if (typeof num != "number") { //checking if a number is entered; if not, will send error message and exit the function
+        console.log("Not a number, try again.");
+        return;
+    }else {
+        conversion(num); //if a number is entered, go ahead and run the conversion function
+    }
+
+    let finalAnswer = converted.join(''); //join the converted array on the ''. This changes the array values, to a string
+    console.log(finalAnswer); //log the final calculation to the screen
+};
+
+  conversion = (num) => {
+    for (let i = 0; i < Object.keys(romanNumerals).length; i++) { //loops through the romanNumeral object keys
+        if (Math.floor(num / Object.values(romanNumerals)[i]) > 0) { //if the number is divisible by the keys value and it is greater than 0
+            converted.push(Object.keys(romanNumerals)[i]); //push the first divisible value(letter) into the converted array
+            num -= Object.values(romanNumerals)[i];//subtract the value from the number entered
+            break; //break out of the loop once the first match is found; this has to be done, or the function will only choose values that it hasn't looped through yet.
+        }
+    }
+    if (num > 0) { //if the number is greater than zero, then rerun the function. The conversion function will stop once the number is 0
+        conversion(num);
+    }
+};
+convertToRoman(225);
