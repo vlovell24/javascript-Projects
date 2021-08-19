@@ -1,0 +1,20 @@
+let arrayA = [1,3,5,0,0,0];
+let arrayB = [2,4,6];
+
+let mergeArrays = (arrayA, arrayB) => {
+    let emptyZero = 0; //empty counter for zero slots
+    let newArray = []; //empty array that will have values pushed to it
+    arrayA.map(function(element) { //increments the counter every time a zero value is found in arrayA
+        if (element === 0) {
+            emptyZero += 1;
+        }
+    });
+    if (emptyZero >= arrayB.length) { //compares the length of arrayB to the counter
+         newArray = arrayA.concat(arrayB).sort().slice(arrayB.length,arrayA.length + arrayB.length); //combines both arrays, sorts, then removes the zero indexes that arrayB will be taking up
+    }else {
+        console.log("arrayB will not fit into arrayA"); //if arrayB is to big to fit into arrayA, will log this error
+        return;
+    }
+    console.log(newArray);
+};
+mergeArrays(arrayA, arrayB);
