@@ -1,0 +1,14 @@
+listA = [2,4,3];
+listB = [5,6,4];
+
+let addTheList = (listA, listB) => { //pass in the two arrays that will be added
+    let finalArray = []; //empty array to hold final calculation
+    let addedTogether = (parseInt(listA.reverse().join('')) + parseInt(listB.reverse().join(''))); //reverse arrays, convert to string, convert to integer (so they can be added) then add together values
+    Array.from(addedTogether.toString()).map((e) => { //turn the addedTogether variable back into a string, convert to an array, then push each of the values into finalArray (this will ensure that the values are not strings)
+      finalArray.push(parseInt(e));
+    });
+    finalArray.reverse(); //reverse the finalArray value
+    console.log(finalArray);
+};
+
+addTheList(listA, listB);
