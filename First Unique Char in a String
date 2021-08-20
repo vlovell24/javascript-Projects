@@ -1,0 +1,19 @@
+let checkString = "perky jerky";
+
+let checkMe = (checkString) => {
+    let tempVar = ""; //temporary storage for each letter
+    let counter = 0; //temp storage for incrementer/counter; needs to be set to 0 as it will be using index value, rather than true number values
+    for (let i = 0; i < checkString.length; i++) { //for loop that will iterate through the length of checkString variable
+        tempVar = checkString[i]; //setting the tempVar to the value of the i, in the loop
+        counter = i+1; //incrementing the counter variable to the value of the iterator + 1; this allows the next loop to look at the next char in the string
+        for (let j = counter; j < checkString.length; j++) { //second loop that checks the value of the first loop letter, against all the other letters in the string
+            if (tempVar === checkString[j]) { //if the tempVar value is equal to the j iterator letter value, return the statement below and exit the loop
+                console.log(`The first matching character is ${tempVar} and is located at index ${counter-1}.`); //subtract one from the counter, because one was added above, to look at the next letter
+                return; //return the function
+            }
+        }
+    }
+    console.log("No matching character was found."); //if no match was found, return this statement
+};
+
+checkMe(checkString);
